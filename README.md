@@ -1,1 +1,0 @@
-# julianrosinel.github.io
