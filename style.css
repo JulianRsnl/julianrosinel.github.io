@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**********************************************RESET MEYER*/
+
+header{
+	background-color: #552167;
+	width: 15%;
+	left: 0px;
+	height: 100vh;
+	bottom: 0%;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: fixed;
+}
+#portrait{
+	margin-left:133px;
+	position: fixed;
+	z-index: 1;
+}
+
+#logo{
+	width: 198px;
+	margin-top:10px;
+	margin-left:46%;
+}
+
+#logotexte{
+	width:150px;
+	margin:100px auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+#nav{
+	margin-top:50px;
+	line-height: 1.5;
+	text-decoration: none;
+	color: #F8B60D;
+}
+li{
+	text-decoration: none;
+	color: #f1ed1f;
+	margin-left:10px;
+}
+
+.titrenav{
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 2;
+	text-decoration: none;
+	color: #f1ed1f;
+	margin-left:10px;
+}
+
+#conteneur{
+	width:85%;
+	margin-left:15%;
+	margin-top: 100px;
+}
+
+
+
+h2{
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color:#f1ed1f;
+	background-color: #552167;
+	text-align: right;
+	margin-top: 15px;
+	margin-right: 35px;
+	padding-right: 5px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	float: right;
+	clear: both;
+}
+
+#titre{
+	height:700px;
+}
+
+.boite1{
+	width: 800px;
+	margin-right: 2%;
+}
+	
+
+.boite2{
+	width:500px;
+	margin-right: 2%;
+}
+
+h5{
+	clear:both;
+}
+
+.natureprojet{
+	font-size: 110%;
+	font-weight: bold;
+	color: #1E0A4F;
+}
+
+.materiel{
+	color: #F8B60D;
+}
+
+.descriptionprojet{
+	color: #1E0A4F;
+}
+
+#dismoidixmots{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+.affichedismoidixmots{
+	margin-top: 5%;
+}
+
+#lailleurs{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+.photolailleurs{
+	margin-top: 5%;
+	margin-right: 20%;
+}
+
+#life{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+#videolife{
+	margin-top: 5%;
+}
+
+#paysageinterieur{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+#portraitchinois{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+#stewartbrand{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+#timbres{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+#contact{
+	margin-left: 20%;
+	margin-top: 185px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+.textecontact{
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color:#f1ed1f;
+	background-color: #552167;
+	text-align: right;
+	margin-top: 15px;
+	margin-right: 35px;
+	padding-right: 5px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	float: right;
+	clear: both;
+	text-decoration: none;
+}
